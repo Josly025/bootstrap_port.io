@@ -1,0 +1,27 @@
+.container {
+  background: rgba(94, 97, 102, 0.616);
+  margin-top: 30px;
+  padding: 20px;
+}
+
+h1 {
+  color: rgb(32, 49, 65);
+}
+
+.card {
+  width: auto;
+
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 700) {
+  img {
+    width: 150;
+    height: 450;
+  }
+  .container {
+    background: rgba(94, 97, 102, 0.616);
+    margin-top: 30px;
+    padding: 20px;
+  }
+}
