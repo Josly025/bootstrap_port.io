@@ -1,18 +1,45 @@
-.flex-container {
-  width: 750x;
-  height: 850px;
-  border: 2px solid red;
-  margin: 20px;
-  background-color: rgb(rgba(24, 44, 70, 0.86));
+.container {
+  display: grid;
+  flex-direction: row;
+  grid-template-columns: repeat(2, 350px);
+  grid-template-rows: repeat(3, 350px, auto-fit);
+  margin: 100px;
+  padding: 0;
   box-sizing: border-box;
-  flex-direction: column;
-  flex-flow: row wrap;
+  width: 750px;
 }
 
-.col-sm {
-  width: 350px;
-  height: 350px;
-  border: 2px solid blue;
-  margin: 20px;
-  box-sizing: border-box;
+.box1 {
+  background-color: aqua;
+  margin: 30px;
+  width: 300px;
+  height: 300px;
+}
+
+.box2 {
+  background: blueviolet;
+  margin: 30px;
+  width: 300px;
+  height: 300px;
+}
+
+.box3 {
+  background-color: orange;
+  margin: 30px;
+  width: 300px;
+  height: 300px;
+}
+
+.box4 {
+  background-color: yellow;
+  margin: 30px;
+  width: 300px;
+  height: 300px;
+}
+
+.box5 {
+  background-color: red;
+  margin: 30px;
+  width: 300px;
+  height: 300px;
 }
