@@ -1,27 +1,43 @@
+h1 {
+  color: rgb(32, 49, 65);
+}
+#me {
+  margin-left: 100px;
+}
+
 .container {
   background: rgba(94, 97, 102, 0.616);
   margin-top: 30px;
   padding: 20px;
+  margin-right: 500px;
+  margin-left: 150px;
 }
-
-h1 {
-  color: rgb(32, 49, 65);
-}
-
-.card {
   width: auto;
 
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 700) {
-  img {
-    width: 150;
-    height: 450;
-  }
-  .container {
-    background: rgba(94, 97, 102, 0.616);
-    margin-top: 30px;
-    padding: 20px;
-  }
+/*MEDIA QUERIES -- RESPONSIVE 
+ Extra small devices (portrait phones, less than 576px)
+ No media query since this is the default in Bootstrap
+  Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 711px) {
+.container{
+  margin: 200px;
 }
+
+#bio{
+  margin: auto;
+  width:""
+  
+
+ 
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .container{
+    margin: auto;
+  }
+ 
