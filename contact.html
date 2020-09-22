@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
+        <link rel="stylesheet" ="style_contact.css"
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
           <!-- Optional JavaScript -->
@@ -16,6 +17,7 @@
 
       </head>
       <body>
+        <!--THIS IS FOR THE NAV BAR -->
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
           <a class="navbar-brand" href="#"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,11 +40,51 @@
           </div>
         </nav>
 
-        <!-- make a container with 5 boxed going down verically arranged when samll all should be images  -->
- 
-       
-    
-      
+        <!-- CONTACT BOX WITH CONTAINER AND INFORMATION   -->
+            <div class="container">
+            <div class="row mx-md-n5">
+              <div class="col px-md-5">
+                <div class="p-5 border bg-light">
+                    <h1>Contact</h1>
+                    <form class="needs-validation" novalidate>
+                      <div class="form-row">
+                        <div class="col-md-4 mb-3">
+                          <label for="validationCustom01">Name</label>
+                          <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="John Johnson" required>
+                          <div class="valid-feedback">
+                            Please enter your name
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="form-row">
+                        <div class="col-md-4 mb-3">
+                          <label for="validationCustomUsername">Email Address</label>
+                          <div class="input-group">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text" id="inputGroupPrepend">@</span>
+                            </div>
+                            <input type="text" class="form-control" id="validationCustomUsername" placeholder="john@gmail.com" aria-describedby="inputGroupPrepend" required>
+                            <div class="invalid-feedback">
+                              Please enter a valid email address
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-3 mb-3">
+                          <label for="validationCustom04">Message</label>
+                          <input type="text" class="form-control" id="validationCustom04" placeholder="Leave message here" required>
+                          <div class="invalid-feedback">
+                          Please provide a message
+                          </div>
+                        </div>
+                        <button class="btn btn-primary" type="submit">Submit form</button>
+                    </form>
+                </div>
+              </div> 
+            </div>
+          </div>
       </body>
     </html>
   </body>

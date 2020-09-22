@@ -1,0 +1,18 @@
+.flex-container {
+  width: 750x;
+  height: 850px;
+  border: 2px solid red;
+  margin: 20px;
+  background-color: rgb(rgba(24, 44, 70, 0.86));
+  box-sizing: border-box;
+  flex-direction: column;
+  flex-flow: row wrap;
+}
+
+.col-sm {
+  width: 350px;
+  height: 350px;
+  border: 2px solid blue;
+  margin: 20px;
+  box-sizing: border-box;
+}
