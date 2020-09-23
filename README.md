@@ -44,7 +44,16 @@ Dani Krossing on YouTube:
 
 N/A
 
+### Future Goals
+
+- Add ALL bio information into desired areas: this is left in code comments
+- Use more bootstrap elements to establish better understanding
+- Commit MORE and OFTEN - I sometimes would get carried away in work and
+  would later remember to commit
+- Finally, spent more time researching (via google-fu) rather than attempting
+  new CSS elements when code is not working properly
+
 ## Links
 
-[GitHub]()
-[GitHub Pages]()
+[GitHub](https://github.com/Josly025/bootstrap_port.io.git)
+[GitHub Pages](https://josly025.github.io/bootstrap_port.io/.)
