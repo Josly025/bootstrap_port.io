@@ -1,31 +1,18 @@
 h1 {
   color: rgb(32, 49, 65);
 }
+
+#bio {
+  width: 250px;
+  height: 350px;
+}
+
 #me {
   margin-left: 100px;
 }
 
-.container {
-  background: rgba(94, 97, 102, 0.616);
-  margin-top: 30px;
-  padding: 20px;
-  margin-right: 500px;
-  margin-left: 150px;
+/* Boostrap containter */
+
+.container-fluid {
+  background-image: url(https://fcit.usf.edu/matrix/wp-content/uploads/2019/03/CircuitBoard-LtGrey-Standard.jpg);
 }
-  width: auto;
-
-  margin-bottom: 0;
-}
-
-/*MEDIA QUERIES -- RESPONSIVE 
- Extra small devices (portrait phones, less than 576px)
- No media query since this is the default in Bootstrap
-  Small devices (landscape phones, 576px and up)*/
-// Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) { ... }
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767.98px) { ... }
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991.98px) { ... }
