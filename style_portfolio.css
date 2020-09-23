@@ -1,4 +1,4 @@
-.container {
+.container-fluid {
   display: grid;
   flex-direction: row;
   grid-template-columns: repeat(2, 350px);
@@ -6,7 +6,8 @@
   margin: 100px;
   padding: 0;
   box-sizing: border-box;
-  width: 750px;
+  width: 1000px;
+  background-image: url(https://fcit.usf.edu/matrix/wp-content/uploads/2019/03/CircuitBoard-LtGrey-Standard.jpg);
 }
 
 /* boxes set for correct dimensions and approximate spacing */
