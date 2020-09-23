@@ -9,37 +9,47 @@
   width: 750px;
 }
 
+/* boxes set for correct dimensions and approximate spacing */
+/*Back-ground color left for future reference to which box I would like
+specific pictures placed*/
+
 .box1 {
-  background-color: aqua;
+  background-color: gray;
   margin: 30px;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
+  font-weight: 800;
+  font-display: ;
 }
 
 .box2 {
   background: blueviolet;
   margin: 30px;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
+  font-weight: 800;
 }
 
 .box3 {
   background-color: orange;
   margin: 30px;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
+  font-weight: 800;
 }
 
 .box4 {
   background-color: yellow;
   margin: 30px;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
+  font-weight: 800;
 }
 
 .box5 {
   background-color: red;
   margin: 30px;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
+  font-weight: 800;
 }
