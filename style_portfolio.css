@@ -13,9 +13,11 @@
 /* boxes set for correct dimensions and approximate spacing */
 /*Back-ground color left for future reference to which box I would like
 specific pictures placed*/
-
+h1 {
+  text-align: center;
+}
 .box1 {
-  background-color: gray;
+  /* background-color: gray; */
   margin: 30px;
   width: 350px;
   height: 350px;
@@ -24,7 +26,7 @@ specific pictures placed*/
 }
 
 .box2 {
-  background: blueviolet;
+  /* background: blueviolet; */
   margin: 30px;
   width: 350px;
   height: 350px;
@@ -32,7 +34,7 @@ specific pictures placed*/
 }
 
 .box3 {
-  background-color: orange;
+  /* background-color: orange; */
   margin: 30px;
   width: 350px;
   height: 350px;
