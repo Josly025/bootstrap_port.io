@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-        <link rel="stylesheet" ="style_contact.css"
+        <link rel="stylesheet" href="style_contact.css"
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
           <!-- Optional JavaScript -->
@@ -13,6 +13,7 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Lusitana&family=Montserrat&family=Work+Sans&display=swap" rel="stylesheet">
         <title>Portfolio</title>
 
       </head>
@@ -44,15 +45,15 @@
         </nav>
 
         <!-- CONTACT BOX WITH CONTAINER AND INFORMATION   -->
-            <div class="container-fluid">
+            <div id="background-grad">
             <div class="row mx-md-n5">
               <div class="col px-md-5">
-                <div class="p-5 border bg-light">
-                    <h1>Contact</h1>
+                <div class="p-5 border border-dark">
+                    <h1><u>Contact</u></h1>
                     <form class="needs-validation" novalidate>
                       <div class="form-row">
                         <div class="col-md-4 mb-3">
-                          <label for="validationCustom01">Name</label>
+                          <label for="validationCustom01">| Name |</label>
                           <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="John Johnson" required>
                           <div class="valid-feedback">
                             Please enter your name
@@ -62,7 +63,7 @@
 
                       <div class="form-row">
                         <div class="col-md-4 mb-3">
-                          <label for="validationCustomUsername">Email Address</label>
+                          <label for="validationCustomUsername">| Email Address |</label>
                           <div class="input-group">
                             <div class="input-group-prepend">
                               <span class="input-group-text" id="inputGroupPrepend">@</span>
@@ -76,31 +77,29 @@
                       </div>
 
                       <div class="col-md-3 mb-3">
-                          <label for="validationCustom04">Message</label>
+                          <label for="validationCustom04">| Message |</label>
                           <input type="text" class="form-control" id="validationCustom04" placeholder="Leave message here" required>
                           <div class="invalid-feedback">
                           Please provide a message
                           </div>
                         </div>
-                        <button class="btn btn-primary" type="submit">Submit form</button>
+                        <button class=" btn-new" type="submit">Submit form</button>
                     </form>
                 </div>
               </div> 
             </div>
-          </div>
-    <footer>
-        <div class="card">
-            <div class="card-footer" class="container-fluid" width="device-width">
-
-            </div>
-            <div class="card-body bg-dark">
+         
+    <footer id="footer">
+          <div class="card-footer container-fluid" width="device-width">
+            <div class="card-body bg-dark shadow p-10 mb-5 bg-dark rounded">
               <h5 class="card-title text-light">Contact Information</h5>
-              <p class="card-text text-light">Email: grantjoslyn@gmail.com    Phone: 563-203-1340</p>
-              <a href="http://www.linkedin.com/in/grantjoslyn/" class="btn btn-primary">Connect with me via LinkedIn!</a>
-              <a href="https://github.com/Josly025" class="btn btn-primary">Follow me on GitHub!</a>
+              <p class="card-text text-light">Email: grantjoslyn@gmail.com  | Phone: 563-203-1340</p>
+              <a href="http://www.linkedin.com/in/grantjoslyn/"><button class="btn-new">Connect with me via LinkedIn!</button></a>
+              <a href="https://github.com/Josly025"><button class="btn-new">Follow me on GitHub!</button></a>
             </div>
-          </div>
+           </div>
     </footer>
+   </div>
       </body>
     </html>
   </body>
